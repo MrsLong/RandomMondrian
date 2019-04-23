@@ -23,6 +23,7 @@ for (let i = 0; i < 30; i++) {
   painting.appendChild(cell);
 }
 
+//create extra white cells to fill in any leftover gaps
 for (let i = 0; i < 10; i++) {
   const cell = document.createElement('div');
   cell.style.gridColumn = 'span 1';
